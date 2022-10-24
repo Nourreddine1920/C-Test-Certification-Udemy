@@ -34,7 +34,7 @@ int main(void) {
    pd.print(500.263);
    
    // Call print to print character
-   pd.print("Hello C++");
+   pd.print("Hello world !");
  
    return 0;
 }
