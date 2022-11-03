@@ -1,18 +1,27 @@
 #include<iostream>
-// #include<string>
-using namespace std;
 
-int check(string str) {
-	//////////////////////////////
-	int len = 0;
-	//string would be input automatically 
-	cin >> str;
-	len = sizeof(str);
+using namespace std ;
+
+int main( )
+
+{
+	int tab[5] = {};
+	int i = 0 ; 
+
+	for (i ; i < 5 ; i++){
+		
+	}
+	for (i ; i <5 ; i++){
+	 	if (min > tab[i]){
+			min = tab[i];
+						
+		}
+	}
+
+	cout << "the minimum number of tab : " << min << endl;
+
 	
-    
-    //code here
-    
-	
-	return len;
-	//////////////////////////////
+return 0;
+
 }
+
