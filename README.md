@@ -195,15 +195,15 @@ properties:-
 
 ![Screenshot](vector.png)
 
-> Vector declaration : 
+> 📌 Vector declaration : 
 
-` 	std::vector<int> testVector1; `
+`std::vector<int> testVector1; `
 
-> Vector declaration : 
+> 📌 Vector declaration : 
 
-Insertion of an element at the end of the vector : ` testVector2.push_back(40);	 `
+Insertion of an element at the end of the vector : `testVector2.push_back(40);	 `
 
-> Iteration for printing values of vector : 
+> 📌 Iteration for printing values of vector : 
 ```
 for (vector<int>::iterator i = testVector2.begin(); i != testVector2.end(); i++)
 {
@@ -211,34 +211,34 @@ for (vector<int>::iterator i = testVector2.begin(); i != testVector2.end(); i++)
 }
 ```
 
-> Pop out last element : 
+> 📌 Pop out last element : 
 
-` 	testVector2.pop_back(40); `
+`testVector2.pop_back(40); `
 
-> insert: - inserts the element in vector before the position pointed : 
+> 📌 insert: - inserts the element in vector before the position pointed : 
 ```
 vector<int>::iterator i = testVector2.begin();
 testVector2.insert(i, 0);
 ```
 
-> erase:- removes the element pointed by the iterator : 
+> 📌 erase:- removes the element pointed by the iterator : 
 
 ```
 vector<int>::iterator j = testVector2.begin();
 	testVector2.erase(j);
 ```
 
-> erase all element except last element :
+> 📌 erase all element except last element :
 
-` 		testVector2.erase(testVector2.begin(), testVector2.end() - 1);`
+`testVector2.erase(testVector2.begin(), testVector2.end() - 1);`
 
-> swap: interchanges value of two vectors :
+> 📌 swap: interchanges value of two vectors :
 
-` 		testVector2.swap(testVector1);`
+`testVector2.swap(testVector1);`
 
-> capacity :number of elements that can be inserted in the vector based on the memory allocated to the vector : 
+> 📌 capacity :number of elements that can be inserted in the vector based on the memory allocated to the vector : 
 
-` 	cout << endl << "Capacity " << testVector2.capacity() << endl; ` 
+`cout << endl << "Capacity " << testVector2.capacity() << endl; ` 
 
 
 
