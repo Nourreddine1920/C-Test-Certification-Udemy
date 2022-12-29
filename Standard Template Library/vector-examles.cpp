@@ -55,9 +55,12 @@ int main()
 	vector<int>::iterator it1, it2;
 	it1 = upper_bound(myvec2.begin(), myvec2.end(), 20);
 	
+    // cout << "It 1" << it1 <<  endl ; 
 
 	//it returns an iterator to the lower bound of the given element in the given sorted range.
 	it2 = lower_bound(myvec2.begin(), myvec2.end(), 20); 
+    // cout << "It 2" << it2 <<  endl ; 
+
 
 	//count
 	cout << "No of 20 :" << count(myvec2.begin(), myvec2.end(), 20) << endl;
