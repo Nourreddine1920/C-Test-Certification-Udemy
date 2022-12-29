@@ -253,5 +253,19 @@ vector<int>::iterator j = testVector2.begin();
 
 ![Screenshot](queue.png)
 
+## 🎯 Priority Queue    : 
+
+![Screenshot](priority-queue.png)
+
+> 📌 MAX HEAP  : Will be arranged in Descending Order 
+
+`	priority_queue <int> queue1  `
+
+> 📌 MIN HEAP  : Will be arranged in Ascending Order 
+
+`	priority_queue <int, vector<int>, greater<int> > queue1;  `
+
+
+
 
 
