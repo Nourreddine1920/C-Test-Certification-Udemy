@@ -184,11 +184,10 @@ properties:-
 						locations.
 
 3. `Fixed-size aggregate`:
-- The container uses implicit constructors and destructors to allocate the required space.
-📌 Explicitly Constructor call
+> The container uses implicit constructors and destructors to allocate the required space.
+- Explicitly Constructor call
  ```test obj = test(10);```
-
-📌 Implicitly Constructor call
+- Implicitly Constructor call
 ```test obj(10)```
 
 
