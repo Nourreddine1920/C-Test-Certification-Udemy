@@ -165,10 +165,30 @@ Class_name2 obj2;
 
 # Standart Template Library =====> STL : 🚀 
 
-## Containers : 
+## 🎯 Containers : 
 ![Screenshot](containers.png)
 
 
+## 🎯 Array  : 
 
+> Arrays are fixed-size sequence containers
+Therefore, they cannot be expanded or contracted dynamically
+
+
+properties:-
+1. `Sequence:`:- Elements in container follow strict linear sequence.
+			  Individual elements are accessed by their position 
+			  in this sequence.
+
+2. `Contiguous storage:`:- The elements are stored in contiguous memory
+						locations.
+
+3. `Fixed-size aggregate`:
+- The container uses implicit constructors and destructors to allocate the required space.
+						i) Explicitly Constructor call
+						test obj = test(10);
+
+						ii) Implicitly Constructor call
+						test obj(10);
 
 
