@@ -15,16 +15,16 @@ int main()
 
 	//10,20,30
 	//front  = 10
-	cout << endl << "front element :-" << queue1.front();
+	cout << endl << "front element :" << queue1.front();
 
 	//back
-	cout << endl << "Back element :-" << queue1.back();
+	cout << endl << "Back element :" << queue1.back();
 
 	//pop
 	queue1.pop();
-	cout << endl << "New front element :-" << queue1.front();
+	cout << endl << "New front element :" << queue1.front();
 
 	//size: no of element present in queue
-	cout << endl << "No. Of element:- " << queue1.size();
+	cout << endl << "No. Of element: " << queue1.size();
 	return 0;
 }
