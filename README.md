@@ -245,3 +245,6 @@ vector<int>::iterator j = testVector2.begin();
 ![Screenshot](vector.png)
 
 
+## 🎯 Stack    : 
+
+![Screenshot](stack.png)
